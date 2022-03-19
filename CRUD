@@ -1,0 +1,20 @@
+// Basic Cypher CRUD operations
+
+// Create
+CREATE (e:Customer{id:"1001",name:"Abc",dob:"01/10/1982"})
+CREATE (cc:CreditCard{id:"5001",number:"1234567890",cvv:"888",expiredate:"20/17"})
+
+// Read
+MATCH (e:Customer)
+RETURN e.id,e.name,e.dob
+
+MATCH (cc:CreditCard)
+RETURN cc.id,cc.number,cc.cvv,cc.expiredate
+
+// Update
+MATCH (cc:CreditCard)
+SET cc.title = 'superstar'
+RETURN cc
+
+// Delete
+MATCH (e: Customer) DELETE e
