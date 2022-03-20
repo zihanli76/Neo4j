@@ -1,0 +1,9 @@
+With the development of technology, our demand for data is no longer limited to the acquisition of data itself, we also need to acquire the relationship between data and data (that is, connect data).
+
+Simply put, we can say that graph databases are mainly used to store more connected data (because graph structures can hold more relationships between data than other data structures).
+
+If we use RDBMS databases to store more connected data, they do not provide adequate performance for traversing large amounts of data. In these cases, Graph Database improves application performance.
+
+Today, most social networking apps (like Facebook, Google+, LinkedIn, Twitter, Yammer, etc.) and video hosting apps (like Google YouTube, Flickr, Yahoo Video, etc.) are using more connected data.
+
+Neo4j is a high-performance, NOSQL graph database that stores structured data over the network rather than in tables. It is an embedded, disk-based Java persistence engine with fully transactional features, but it stores structured data on a network (called a graph from a mathematical point of view) rather than in tables. Neo4j can also be seen as a high-performance graph engine with all the features of a full-fledged database. Programmers work in an object-oriented, flexible network structure rather than rigid, static tables -- but they can enjoy all the benefits of a fully transactional, enterprise-class database.
