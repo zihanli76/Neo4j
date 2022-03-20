@@ -1,0 +1,15 @@
+Download the latest Neo4j Server installation file from the Neo4j website: http://www.neo4j.org/download
+
+Double click the exe file to install Neo4j server
+
+Open Neo4j Community
+
+Windows “star” ->> “All Programs” ->> “Neo4j Community” 
+
+By default it selects c:\Users\[username]\Documents\Neo4j\default.graphdb. You can change your path to a different directory if you want.
+
+Click the "Start" button.
+
+Once the server starts, we can observe that many files are generated under the specified directory.
+
+Access Neo4j by using http://localhost:7474/
